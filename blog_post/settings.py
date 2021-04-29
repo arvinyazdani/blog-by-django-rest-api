@@ -130,6 +130,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 REST_FRAMEWORK = {
     'DEFAULT_PREMOSSION_CLASSES': [
-        'rest_framework.permissons.AllowAny'
+        'rest_framework.permissons.IsAuthenticated', 
     ]
 }
